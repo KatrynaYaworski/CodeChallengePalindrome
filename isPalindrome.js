@@ -18,8 +18,6 @@ isPalindrom("Racecar")
 isPalindrom("racecar")
 // returns true
 */
-function checkForPalindrome(word) {
-    return word === word.split('').reverse().join('');
-}
+let checkForPalindrome = (word) => word === word.split('').reverse().join('');
 
 console.log(checkForPalindrome('bob'))
